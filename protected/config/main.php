@@ -12,8 +12,7 @@ return array(
     'modules' => array(
     ),
     'components' => array(
-        'user' => array(
-            // enable cookie-based authentication
+        'user' => array(            
             'allowAutoLogin' => true,
         ),
         
