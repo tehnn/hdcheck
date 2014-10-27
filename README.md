@@ -6,7 +6,7 @@ hdcheck ระบบช่วยตรวจสอบคิวนำเข้า
 -แก้ไข<br>
 hdcheck/protected/config/main.php
 
-chmod 777 ที่<br>
+-chmod 777 ที่<br>
 hdcheck/assets<br>
 hdcheck/protected/runtime
 
