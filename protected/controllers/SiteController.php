@@ -35,7 +35,11 @@ class SiteController extends Controller {
 
         $res = Yii::app()->db->createCommand("SHOW FULL PROCESSLIST")->queryAll();
         $dataProvider = new CArrayDataProvider($res,array(
-            'keyField'=>'Id'
+            'keyField'=>'Id',
+            'totalItemCount'=>  count($res),
+            'pagination'=>array(
+                'pageSize'=>100
+            )
         ));
 
 
